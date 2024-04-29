@@ -29,4 +29,5 @@ Contents
 
 .. toctree::
    how-to
+   programming
    usage
