@@ -1,6 +1,8 @@
 How To
 =====
 
+CUDA code must be in '.cu' extension.
+
 Compile
 ------------
 Let's say I want to compile a cuda code named 'example.cu'
