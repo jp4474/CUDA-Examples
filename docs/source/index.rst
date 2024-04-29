@@ -24,6 +24,8 @@ The most recent CUDA Compute Capability introduces interthread communication, en
 5. **Tasks involving File I/O**:
 For loading or writing data to/from a file, it's more efficient to use the CPU. Given that GPUs create millions of "threads", they are not ideal for tasks requiring serial I/O. In fact, CUDA only provides the printf statement for writing operations.
 
+references: https://cs.stackexchange.com/questions/121080/what-are-gpus-bad-at
+
 Contents
 --------
 
