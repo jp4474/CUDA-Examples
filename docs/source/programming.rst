@@ -1,7 +1,7 @@
 Programming
 =====
 
-Understanding these 3 concepts will get you started on CUDA. However, it is recommened to thoroughly read and understadn the content available at
+Understanding these 3 concepts will get you started on CUDA. However, it is recommened to thoroughly read and understand the content available at
 https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#memory-hierarchy
 
 1.1 Kernels
