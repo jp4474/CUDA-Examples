@@ -1,9 +1,8 @@
 Usage
 =====
 
-.. include:: examples/add.cu
+.. include:: docs/source/examples/add.cu
    :language: c++
-
 
 Keep in mind that CUDA operates tasks in a thread bundle known as warps. For a single addition operation on a matrix, CUDA will initiate 32 threads.
 
