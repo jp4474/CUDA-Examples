@@ -14,6 +14,17 @@ Benchmarks
 
 .. image:: examples/1d_addition_benchmarks.png
 
+The GPU has high latency, so for operations with array sizes smaller than 1,024,000, the CPU is much faster. However, the GPU compensates for its high latency with large throughput. For example, the GPU shines when working with an array size of 1,024,000,000 or greater.
 
-GPU has a very slow latency but it compensates its slow latency by large throughput. For the example above, GPU shines when you are working with an array size of 
+
+
+
+
+
+
+
+
+
+
+
 
