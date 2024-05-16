@@ -1,7 +1,7 @@
 Usage
 =====
 
-.. include:: add.cu
+.. include:: examples/add.cu
    :language: c++
 
 
@@ -12,7 +12,7 @@ Be aware that you cannot use sizeof() or A.size() for a std::vector A within CUD
 Benchmarks 
 =====
 
-.. image:: 1d_addition_benchmarks.png
+.. image:: examples/1d_addition_benchmarks.png
 
 
 GPU has a very slow latency but it compensates its slow latency by large throughput. For the example above, GPU shines when you are working with an array size of 
